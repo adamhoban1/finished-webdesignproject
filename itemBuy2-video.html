@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="discription" context="collage project">
+        <meta name="keywords" context="HTML5, gym, sports, collage project, whey, protien, supplement, video">
+        <meta charset="X-AUA-Compatible" context="ie=edge">
+        <title> gym shop website || whey protien</title>
+        <link rel="stylesheet" href="CSSFormat/mainStyles.css">
+        <link rel="icon" href="WebsiteImages/gym favicon.webp" type="image/gif" sizes="16x16">
+        
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="WebsiteImages/gymWebsiteLogo.jpg" alt="logo"> 
+            <h1>gym shop website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="index.html"> home </a></li>
+                <li> <a href="GymEquip.html"> gym equipment </a></li> 
+                <li> <a href="supplement.html"> sport supplements </a></li> 
+                <li> <a href="apeal.html"> appeal </a></li> 
+                <li> <a href="accessories.html"> Accessories </a></li> 
+            </ul>
+            <ul>
+                <li>  <button onclick="toggleDarkMode()">Toggle dark mode</button> </li>
+                <li> <a href="account page.html"> <img style="border-radius: 50%;" src="WebsiteImages/blank account picture.png" alt="image of a gym" width="70px" height="70px">  </a></li> 
+            </ul>
+        </nav>
+        
+        <main>
+            <section class="itemcontainer">
+                <video controls loop width="300" height="369"> 
+                    <source src="video/gym video.mp4" type="video/mp4" /> 
+                    <source src="video/food.ogg" type="video/ogg"/>
+                    Your browser does not support HTML5 Video.
+                </video>
+                <section class="iteminfo">
+                    <h2>set of Dumbbell</h2>
+                    <table>
+                        <tr>
+                            <th>Weight</th>
+                            <td>5-52.5 lbs (2.25-23.8 kg)</td>
+                        </tr>
+                        <tr>
+                            <th>Dimensions</th>
+                            <td>14.6 x 7.9 x 7.9 inches (37 x 20 x 20 cm)</td>
+                        </tr>
+                        <tr>
+                            <th>Material</th>
+                            <td>Cast iron and steel</td>
+                        </tr>
+                        <tr>
+                            <th>Warranty</th>
+                            <td>2 years</td>
+                        </tr>
+                    </table>
+                    <section class="itemprice">$199.99</section>
+                        <button style="background-color: #4CAF50">Buy Now</button>
+                        <button style="background-color: #4CAF50">Add to Cart</button>
+                    </section>
+                </section>
+            
+    </main>
+        <footer>
+            <p> &copy; 2024 | this is a collage project</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="GymEquip.html">Gym Equipment</a>
+                <a href="supplement.html">Sport Supplements</a>
+                <a href="apeal.html">Appeal</a>
+                <a href="accessories.html">Accessories</a>
+            </nav>
+        </footer>
+        <script>
+            function toggleDarkMode() {
+               var element = document.body;
+               element.classList.toggle("darkmode");
+            }
+            </script>
+    </body>
+</html>

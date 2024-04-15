@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="discription" context="collage project">
+        <meta name="keywords" context="HTML5, gym, sports, collage project, sign up, work">
+        <meta charset="X-AUA-Compatible" context="ie=edge">
+        <title> gym shop website || sign up</title>
+        <link rel="stylesheet" href="CSSFormat/mainStyles.css">
+        <link rel="icon" href="WebsiteImages/gym favicon.webp" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="WebsiteImages/gymWebsiteLogo.jpg" alt="logo"> 
+            <h1>gym shop website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="index.html"> home </a></li>
+                <li> <a href="GymEquip.html"> gym equipment </a></li> 
+                <li> <a href="supplement.html"> sport supplements </a></li> 
+                <li> <a href="apeal.html"> appeal </a></li> 
+                <li> <a href="accessories.html"> Accessories </a></li> 
+            </ul>
+
+                <ul>
+                    <li>  <button onclick="toggleDarkMode()">Toggle dark mode</button> </li>
+                    <li> <a href="account page.html"> <img style="border-radius: 50%;" src="WebsiteImages/blank account picture.png" alt="image of a gym" width="70px" height="70px">  </a></li> 
+                </ul>
+        </nav>
+        
+        <main>
+            <form action="http://foo.com" method="get">
+                <label for="fname">First name:</label><br>
+                <input id="fname" type = "text" required pattern="^[a-z]{2,12}$" title ="first name must be between 2 and 12 letters"><br>
+                <label for="lname">Last name:</label><br>
+                <input id="lname" type = "text" required><br>
+                <label for="email">email:</label><br>
+                <input id="email" type = "email" required><br>
+                <label for="age">age:</label><br>
+                <input id="age" type = "number" name ="email" required min = "18" max = "100"><br>
+                <label for="lname">wanted password:</label><br>
+                <input id="lname" type = "text" required><br>
+                <input type="submit" value="Submit">
+                </form>
+            
+        </main>
+        <footer>
+            <p> &copy; 2024 | this is a collage project</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="GymEquip.html">Gym Equipment</a>
+                <a href="supplement.html">Sport Supplements</a>
+                <a href="apeal.html">Appeal</a>
+                <a href="accessories.html">Accessories</a>
+            </nav>
+        </footer>
+        <script>
+            function toggleDarkMode() {
+               var element = document.body;
+               element.classList.toggle("darkmode");
+            }
+            </script>
+    </body>
+</html>
